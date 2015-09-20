@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" > <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" > <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" > <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js wf-futurapt-n4-active wf-futurapt-n5-active wf-futuraptcondensed-n4-active wf-futuraptcondensed-n7-active wf-active" lang="en">
+  <!--<![endif]-->
+  <head>
+  <meta charset="utf-8">
+
+  <title>Стиль | Магазин мужской одежды вНовосибирске.</title>
+
+  <meta name="description" content="Новосибирский магазин стильной мужской одежды.">  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+  
+  <link rel="shortcut icon" href="favicon.ico">	
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+  <!--<script async="" src="//www.google-analytics.com/analytics.js"></script>-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  
+  <script type="text/javascript">
+
+		jQuery(window).ready(function($) {
+		
+			function isMobile(){
+			   return (
+			       (navigator.userAgent.match(/Android/i)) ||
+			               (navigator.userAgent.match(/webOS/i)) ||
+			               (navigator.userAgent.match(/iPhone/i)) ||
+			               (navigator.userAgent.match(/iPod/i)) ||
+			               (navigator.userAgent.match(/iPad/i)) ||
+			               (navigator.userAgent.match(/BlackBerry/))
+			   );
+			} 
+			
+			if ( !(jQuery.browser.msie && jQuery.browser.version == 9.0) && !(jQuery.browser.msie && jQuery.browser.version == 8.0) ){ 
+			       if(!isMobile()) {
+			               jQuery(window).scroll(function() {              
+			                       scrollBG();              
+			               });
+			      }
+			}
+			
+			function scrollBG() {
+			   scrollTop = jQuery(this).scrollTop();
+			    if(scrollTop > 15){
+			    	$('header').addClass('scroll_head');
+			    }
+			    else{
+			       $('header').removeClass('scroll_head');
+			    }			
+			}
+			
+			//to anchor menu
+			jQuery('a.scroll').click(function(event){
+			    event.preventDefault();
+			    jQuery('html,body').animate({scrollTop:$(this.hash).offset().top }, 500);
+		    });
+		});
+  
+  </script>
+
+<!--  
+  <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-34690562-47', 'auto');
+	  ga('send', 'pageview');
+	</script>
+-->	
+  
+  <script src="//use.typekit.net/wcq0nqw.js"></script>
+  <style type="text/css">
+    .tk-futura-pt{font-family:"futura-pt",sans-serif;}.tk-futura-pt-condensed{font-family:"futura-pt-condensed",sans-serif;}
+  </style>
+  <link rel="stylesheet" href="https://use.typekit.net/c/c9c17b/1w;futura-pt,2,Y5K:P:n4,SH3:P:n5;futura-pt-condensed,2,WGx:P:n4,WH1:P:n7/l?3bb2a6e53c9684ffdc9a9bf51b5b2a629d347ed6863d344d206715ed73be05c60eee88f947b0109887100aa77ca868eabc1e2c9e8e0659b907344efdc05072e9351f5f0c2d00b3fae4ab513ee1fae66ef9d4a8bc0de8cf97130fc46b229d229ee20067a21bf45ac5cfd624d2cbfb88cd9a595bfe891b8a4d0c5ec389cbafee992b7c19" media="all">
+  <script>try{Typekit.load();}catch(e){}</script>
+  
+</head>
+
+<body>
+	
+	<a id="home" name="home"></a>
+	
+	<header class="easeybro">
+		<div id="headcont_wrap" class="center ">
+			
+			<div id="nav_wrap" class="easeybro">
+				<nav>
+					<ul>
+						<li><a class="scroll" href="#about">о нас</a></li>
+						<li><a class="scroll" href="#brands">брэнды</a></li>
+						<li><a class="scroll" href="#contact">контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+							
+			<a id="logo" class="scroll easeybro" href="#home">
+				<img src="images/logo.png" alt="logo">
+			</a>
+			
+			
+			<div id="social_wrap" class="head easeybro">
+				<ul id="social">
+					<li id="facebook"><a href="https://www.facebook.com/thewildromantic" class="fa fa-facebook"></a></li>
+					<li id="twitter"><a href="https://twitter.com/thewildromantic" class="fa fa-twitter"></a></li>
+					<li id="pinterest"><a href="http://www.pinterest.com/thewildromantic/" class="fa fa-pinterest"></a></li>
+					<li id="instagram"><a href="http://instagram.com/thewildromantic" class="fa fa-instagram"></a></li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
+	</header>
+	
+	<div class="carousel_loop" id="one">
+		<div class="carousel_image" id="one"></div>
+	</div>
+	
+	<a id="about" class="anchor" name="about"></a>
+	
+	<!--------- About Section --------->
+	<div class="main center about">
+	
+		<div id="aboutcont_wrap" class="scol">
+			<div class="content_style">
+				<h2>О НАС</h2>
+				<p><strong>Not your average bridal boutique</strong></p>
+				<p>The Wild Romantic is Australia's destination bridal boutique like no other. We have handpicked the worlds best designers that we know cater to todays chic brides. Exclusively stocking Grace Loves Lace, Daughters of Simone, Houghton New York, Amanda Wakeley, &amp; For Love, Alex Mearing, For The Love of Grace and more. We can dress your bridal party from head to toe.</p>
+				<p>Located in the coastal arts hub of Burleigh Heads, Gold Coast Australia.</p>
+				<p>Our brides know style and we know bridal, let's do this.</p>
+			</div>
+		</div>
+	
+	</div>
+	
+	<div class="carousel_loop" id="two">
+		<div class="carousel_image" id="two"></div>
+	</div>
+	
+	<a id="brands" class="anchor" name="brands"></a>
+	
+	<div class="main center about">
+		<div id="stock_wrap">
+			<div class="content_style">
+				<div class="scol">
+					<h2>Брэнды</h2>
+				</div>
+				<img id="supply_logos" src="images/supply-logos.png" alt="supply-logos">
+			</div>
+				
+		</div>
+	</div>
+	
+	<a id="contact" class="anchor" name="contact"></a>
+	
+	<!--------- Contact Section --------->
+	<div class="main center">
+		
+		<div id="contact_wrap" class="scol">
+			<div class="content_style">
+		      	<h2>КОНТАКТЫ</h2>
+				<p><strong>BOOK YOUR APPOINTMENT</strong></p>
+				<p>To book your appointment please email <a href="mailto:grafraf@gmail.com">grafraf@gmail.com</a>
+				  <!-- or call (07) 55 200 024 --> 
+				  After-hours appointments are available. 
+				</p>
+				<p>For our fly-in brides, we are located only 10 minutes North of Coolangatta airport, and 1hour South of Brisbane airport. Stay the weekend and experience the fantastic cafes, beach and shopping. We are here to help arrange travel and accommodation as much as you need.</p>
+				
+				<p><strong>SHOP</strong></p>
+				<p>Coming Soon! For our brides who cannot visit in-store we will be introducing a virtual tour of each dress in our boutique so you feel comfortable to order from the comfort of your own house.</p>
+				
+				<div class="margin_wrap">
+					<p><strong>BOOK A VIP EXPERIENCE</strong></p>
+					<p>For a private extended session with our in-house stylist, with fully catered French Champagne, Turkish teas and rustic delights from our friends at the iconic Paddock Bakery email <a href="mailto:grafraf@gmail.com">grafraf@gmail.com</a></p>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	
+	<div class="main">
+		<div id="map_wrap" class="center">
+			<h2>Как нас найти</h2>
+			<p><strong> Opening at the end of October!</strong></p>
+			<p>2 Hibiscus Haven, Burleigh Heads, Queensland, Australia</p>
+			<img src="images/map.png" alt="map">
+		</div>
+	</div>
+
+	<footer>
+		<div id="footcont_wrap" class="center">
+			<div class="clear"></div>
+			<div id="social_wrap_footer">
+				<ul id="social">
+					<li id="facebook">	<a href="https://www.facebook.com/thewildromantic" class="fa fa-facebook"></a></li>
+					<li id="twitter">	<a href="https://twitter.com/thewildromantic" class="fa fa-twitter"></a></li>
+					<li id="pinterest">	<a href="http://www.pinterest.com/thewildromantic/" class="fa fa-pinterest"></a></li>
+					<li id="instagram">	<a href="http://instagram.com/thewildromantic" class="fa fa-instagram"></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<p id="copy"> MADE ON THE <a href="http://thriveweb.com.au/">GOLD COAST <i class="fa fa-leaf"></i></a></p>
+		
+	</footer>
+</body>
+</html>
